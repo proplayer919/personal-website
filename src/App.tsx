@@ -7,6 +7,7 @@ import {
   IconBrandApple,
   IconBrandTypescript,
   IconTerminal,
+  IconArrowUpRight,
 } from '@tabler/icons-react'
 import avatar from './assets/avatar.png'
 import './App.css'
@@ -44,7 +45,7 @@ function App() {
               </div>
               <h1>Hi, I'm <span className="accent">proplayer919</span><span className="dim">.</span></h1>
               <p className="hero-sub">
-                Student &amp; hobbyist developer building <span className="highlight">games, servers, bots, and everything in between</span>.
+                Student & hobbyist developer building <span className="highlight">games, servers, bots, and everything in between</span>.
               </p>
               <div className="hero-tags">
                 <span className="tag"><IconBrandPython size={16} /> Python</span>
@@ -54,7 +55,7 @@ function App() {
               </div>
               <div className="hero-ctas">
                 <a className="btn btn-primary" href="#projects">./projects<span className="blink">▊</span></a>
-                <a className="btn btn-ghost" href="https://github.com/proplayer919" target="_blank">GitHub ↗</a>
+                <a className="btn btn-ghost" href="https://github.com/proplayer919" target="_blank">GitHub <IconArrowUpRight size={16} /></a>
               </div>
             </div>
             <div className="hero-icon-wrap">
@@ -241,7 +242,7 @@ function App() {
             <div className="pr-card">
               <div className="pr-number">PR #31</div>
               <div>
-                <div className="pr-title"><a href="https://github.com/nfriedly/nodeunblocker.com/pull/31" target="_blank" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid var(--surface1)', transition: 'border-color .2s' }} onMouseOver={(e) => e.currentTarget.style.borderColor = 'var(--green)'} onMouseOut={(e) => e.currentTarget.style.borderColor = 'var(--surface1)'}>feat/add-google-search ↗</a></div>
+                <div className="pr-title"><a href="https://github.com/nfriedly/nodeunblocker.com/pull/31" target="_blank" style={{ color: 'inherit', textDecoration: 'none', borderBottom: '1px solid var(--surface1)', transition: 'border-color .2s' }} onMouseOver={(e) => e.currentTarget.style.borderColor = 'var(--green)'} onMouseOut={(e) => e.currentTarget.style.borderColor = 'var(--surface1)'}>feat/add-google-search <IconArrowUpRight size={16} /></a></div>
                 <p className="pr-desc">
                   Added support for Google Search to Node Unblocker, allowing users to access Google Search results through the proxy. Implemented URL rewriting and response modifications to ensure compatibility with Google's search interface. Worked with maintainers to implement their iterative feedback and get the PR merged.
                 </p>
@@ -267,7 +268,7 @@ function App() {
             Whether it's a project collab, open source discussion, or just to talk about coding, I'm always down to chat.
           </p>
           <div className="contact-links">
-            <a className="btn btn-primary" href="https://github.com/proplayer919" target="_blank">GitHub ↗</a>
+            <a className="btn btn-primary" href="https://github.com/proplayer919" target="_blank">GitHub <IconArrowUpRight size={16} /></a>
             <a className="btn btn-ghost" href="mailto:me@proplayer919.dev">Email</a>
           </div>
         </div>
